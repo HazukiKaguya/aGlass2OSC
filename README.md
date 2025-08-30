@@ -12,7 +12,12 @@ Please make sure you have installed Python3.x,aGlassRuntime 1.1.0.0 then(PowerSh
 pip install python-osc
 ```
 Then download the .py file you need,use it(PowerShell).   
-之后，下载您需要的.py文件，使用它。   
+之后，下载您需要的.py文件，使用它(PowerShell)。   
+For [VRChat](https://docs.vrchat.com/docs/osc-eye-tracking)
 ```PowerShell
-python aGlass2xxx.py
+python aGlass2vrc.py
+```
+For [VRCFT]([https://docs.vrchat.com/docs/osc-eye-tracking](https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/parameters))
+```PowerShell
+python aGlass2vrcft.py
 ```
