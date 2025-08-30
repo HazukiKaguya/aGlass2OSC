@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Name: aGlass To VRCFT OSC Sender
+Name: aGlass To VRChat OSC Sender
 Desc: 连接aGlassRuntime (Ver1.1.0.0)，调用API获取来自aGlass DK I/II Eye Tracker的原始眼动数据，并将其转换为VRChat支持的格式的眼动数据，然后使用OSC发送到VRChat。注意，此版本模型的眼球运动无法按照预期进行，需要调整算法。
 Author: HazukiKaguya
 Thanks: Google Gemini
@@ -172,10 +172,10 @@ def main():
             aglass_lib.aGlass_stop_tracking(); aglass_lib.aGlass_stop(); aglass_lib.aGlass_release()
             print("SDK 资源已释放。程序退出。")
             
-        # --- 新增：安全关闭日志文件 ---
         if log_file_handler:
             log_file_handler.close()
             print(f"日志文件 '{LOG_FILENAME}' 已保存。")
 
 if __name__ == "__main__":
+
     main()
