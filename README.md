@@ -21,3 +21,6 @@ For [VRCFT](https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/
 ```PowerShell
 python aGlass2vrcft.py
 ```
+
+## Demo
+https://raw.githubusercontent.com/HazukiKaguya/aGlass2OSC/refs/heads/main/aglass2vrcft_demo.mp4
