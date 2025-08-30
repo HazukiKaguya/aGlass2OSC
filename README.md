@@ -23,4 +23,4 @@ python aGlass2vrcft.py
 ```
 
 ## Demo
-https://raw.githubusercontent.com/HazukiKaguya/aGlass2OSC/refs/heads/main/aglass2vrcft_demo.mp4
+https://private-user-images.githubusercontent.com/35645329/483859784-4a0a4789-5f76-45d8-946e-e2dfa3e044df.mp4
