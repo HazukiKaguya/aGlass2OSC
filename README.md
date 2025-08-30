@@ -17,7 +17,7 @@ For [VRChat](https://docs.vrchat.com/docs/osc-eye-tracking)
 ```PowerShell
 python aGlass2vrc.py
 ```
-For [VRCFT]([https://docs.vrchat.com/docs/osc-eye-tracking](https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/parameters))
+For [VRCFT](https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/parameters)
 ```PowerShell
 python aGlass2vrcft.py
 ```
