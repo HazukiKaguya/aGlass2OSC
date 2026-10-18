@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+tmp/
+build/
+dist/
+release/
+archives/
+bin/
+res/
+*.log
+*.csv
+*.bin
+*.dll
+*.exe
+aglass-gui.json
+aglass-gui.json.tmp
+.vs/
+.vscode/
+
+# Ship the simulated response file; keep the driver out of Git sources.
+!/aglass_key.bin
+/drivers/*.exe
+/drivers/*.partial

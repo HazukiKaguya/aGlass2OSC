@@ -1,0 +1,2 @@
+# Optional experimental USB/IP device; not required by the OSC bridge.
+usbip==0.7.0

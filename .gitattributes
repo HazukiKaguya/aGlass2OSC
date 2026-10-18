@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+
+/drivers/*.exe export-ignore
+/drivers/*.partial export-ignore

@@ -1,0 +1,5 @@
+# Complete GUI build dependencies (includes normal and optional Key features).
+-r requirements.txt
+-r requirements-usbkey.txt
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8
