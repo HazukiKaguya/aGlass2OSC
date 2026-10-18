@@ -1,6 +1,6 @@
 # aGlass2OSC
 
-**简体中文** | [English](README.en.md)
+**简体中文** | [English](docs/README.en.md) | [日本語](docs/README.ja.md)
 
 aGlass2OSC 是一款 Windows 眼动桥接工具，可将七鑫易维 aGlass 的眼动数据发送到 VRChat（OSC）或 VRCFaceTracking。提供图形界面和独立命令行程序，支持直连已运行的 aGlass Runtime 1.1 或使用匹配的 SDK，并集成虚拟 USB Key 管理。
 
@@ -162,6 +162,10 @@ CLI 包同样包含运行依赖、官方驱动安装程序和 `aglass_key.bin`�
 python tools/package_source.py
 ```
 该命令按明确文件清单生成 `release/aGlass2OSC-GitHub-source.zip` 及 SHA-256 文件，包含模拟应答 BIN，但排除驱动安装程序，也不会递归收集工作目录中的 SDK、磁盘镜像、缓存或日志。上传源码 ZIP 时先解压，使用其中 `aGlass2OSC/` 目录的内容作为仓库根目录。使用说明见 [docs/WINDOWS_EXE.md](docs/WINDOWS_EXE.md)。
+
+## 参与贡献与第三方声明
+
+问题报告、开发验证和 PR 提交方式见 [贡献指南](CONTRIBUTING.md)。依赖组件的来源与许可见 [第三方软件声明](THIRD-PARTY-NOTICES.md)。两份文档均提供中、英、日三语版本。
 
 ## 许可
 

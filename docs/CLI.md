@@ -1,5 +1,7 @@
 # Windows CLI 使用与构建
 
+**简体中文** | [English](CLI.en.md) | [日本語](CLI.ja.md)
+
 CLI 和 GUI 使用同一套桥接实现，支持 Runtime 直连、SDK 配置、VRChat OSC、VRCFT 输出和眨眼估算。CLI 不打开图形界面，也不需要安装 Python。
 
 ## 使用便携 EXE
@@ -14,7 +16,7 @@ CLI 和 GUI 使用同一套桥接实现，支持 Runtime 直连、SDK 配置、V
 
 最后一条只处理模拟数据，不发送 OSC，不连接设备。`--self-test` 可检查打包依赖、Key 应答和子进程启动，不访问设备。
 
-实际使用时先启动配套 Runtime、准备设备授权并完成校准，在 VRChat 中开启 OSC：
+实际使用时先下载并启动配套 [aGlassRuntime](https://www.7invensun.com/filedownload/179638)、准备设备授权并完成校准，在 VRChat 中开启 OSC：
 
 ```powershell
 .\aGlass2OSC-cli.exe --connection runtime --projection fov
@@ -61,3 +63,5 @@ python aglass2vrc.py --help
 ```
 
 产物为 `release/aGlass2OSC-Windows-x64-cli.zip` 及 `.zip.sha256`。CLI 与 GUI 使用独立构建缓存及输出目录。默认附带驱动，`--without-driver` 可显式省略驱动。源码打包 `python tools/package_source.py` 同时保留两种构建入口，但不包含驱动安装程序。
+
+参见 [项目说明](../README.md)、[贡献指南](../CONTRIBUTING.md)与[第三方软件声明](../THIRD-PARTY-NOTICES.md)。
